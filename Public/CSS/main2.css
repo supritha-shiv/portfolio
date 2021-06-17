@@ -33,7 +33,7 @@ body {
 }
 
 .about {
-  height: 60vh !important;
+  height: 80vh !important;
   width: 100%;
   background-image: url("../images/Main\ Page\ landing.jpg");
   background-size: cover;
