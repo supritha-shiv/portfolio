@@ -1,0 +1,132 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  margin: auto;
+  background-color: aliceblue;
+}
+
+.menu {
+  height: 70px;
+  width: 100%;
+  background: white;
+  box-shadow: 2px 5px 5px 2px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-between;
+}
+
+.landing {
+  height: 45vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.limage {
+  margin: auto;
+}
+
+.about {
+  height: 50vh !important;
+  width: 100%;
+  background-image: url("../images/Main\ Page\ landing.jpg");
+  background-size: cover;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+.work {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  height: 400px;
+  width: 100%;
+  align-items: center;
+}
+
+.box {
+  margin-top: 20px;
+  border-radius: 32px;
+  width: 300px;
+  height: 300px;
+  background-color: white;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-box {
+  margin-top: 20px;
+  /* border-radius: 10px; */
+  width: 350px;
+  height: 200px;
+  margin-left: 100px;
+}
+
+.about-box-image {
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.footer {
+  height: 100px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header {
+  margin-bottom: 30px;
+  color: #84dcc6;
+  font: 50px;
+}
+.card-title {
+  font-size: larger;
+  color: #84dcc6;
+  font-weight: 600;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.button {
+  color: indianred;
+  font-size: 30px;
+  border-radius: 40px;
+  border: 2px solid indianred;
+  padding: 8px 32px;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+}
+
+.menu-logo {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 700;
+  color: #84dcc6;
+}
+.menu-items {
+  font-size: 24px;
+
+  color: #84dcc6;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}

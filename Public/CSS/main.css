@@ -1,0 +1,67 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  background: white;
+}
+
+body {
+  margin: auto;
+  background-color: #b1b1b1;
+}
+
+.menu {
+  height: 70px;
+  width: 100%;
+  background: red;
+  box-shadow: 2px 5px 5px 2px rgba(0, 0, 0, 0.2);
+}
+
+.landing {
+  background: green;
+  height: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.limage {
+  margin: auto;
+}
+
+.about {
+  height: 400px;
+  background: gray;
+}
+
+.work {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background: blue;
+  height: 400px;
+  width: 100%;
+}
+
+.box {
+  margin-top: 20px;
+  border-radius: 10px;
+  width: 200px;
+  height: 200px;
+  background: white;
+}
+
+.about-box {
+  margin-top: 20px;
+  border-radius: 10px;
+  width: 200px;
+  height: 200px;
+  background: cyan;
+}
+
+.footer {
+  height: 50px;
+  width: 100%;
+}
